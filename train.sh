@@ -1,0 +1,1 @@
+python train.py -save_model model/ -batch_size 128 -layers 2 -rnn_size 500 -word_vec_size 300 -pre_word_vecs_enc "data/embedings.enc.pt" -pre_word_vecs_dec "data/embedings.dec.pt" -data data/demo -world_size 1 -gpu_ranks 0
